@@ -5,7 +5,7 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
-path=/workspace/keys
+path=$HOME/workspace/repo/keys
 mkdir -p "$path"
 
 vkey="$path/$1.vkey"
